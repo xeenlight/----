@@ -3,184 +3,144 @@
     margin: 0; 
     box-sizing: border-box; 
     font-family: "Inter"; 
-    color: rgba(255, 255, 255, 1);
-    outline: 2px solid red;
+    color:rgba(255, 255, 255, 1);
 } 
-/* section {
-    padding: calc(3.8vw  + 68px) calc(12.8vw  - 24.8px);
-    background: rgba(4, 56, 115, 1); 
-    position: relative;
-    z-index: -1;
-} */
-
-.ONE {
-    padding: calc(0.8vw + 13.4px) calc(12.8vw  - 24.8px);
-    background: rgba(4, 56, 115, 1); 
+.ONE{
+    padding: 16px calc(1.5vw  + 11.259px);
+    background: rgba(4, 56, 115, 1);
 }
-.TWO {
-    padding: calc(3.8vw  + 68px) calc(12.8vw  - 24.8px);
-    background: rgba(4, 56, 115, 1); 
-    /* position: relative; */
-    z-index: -1; 
+.header-content{
+    display: flex;
+    gap: 217px;
+    align-items: center;
 }
-
-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+.logo{
     width: 100%;
-    height: 100%;
-    background: url('./image/Element1.svg') no-repeat center center;
-    background-size: calc(106.6vw  + 700.876px);
-    transform: rotate(0deg);
-    transform-origin: center center;
-    z-index: -1;
+    max-width: 191px;
+}
+.menu{
+    display: none;
+}
+.LinkButton{
+    display: flex;
+    gap: 75px;
+}
+.nav-links{
+    display: flex;
+    gap: 32px;
+}
+.nav-links div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 24px;
+}
+.Login{
+    width: 126px;
+    height:60px;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(255, 228, 146, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(4, 56, 115, 1);
+}
+.ProjectButton{
+    width:227px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+.TWO{
+    padding: 100px calc(1.5vw  + 11.259px);
+    background: rgba(4, 56, 115, 1);
+}
+.All{
+display: flex;
+flex-wrap: wrap;
+}
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
 }
 .Project h1{
-    width: calc(23vw + 214.4px);
-    font-size: calc(1.8vw + 30.4px);
+    width: calc(34.1vw  + 178.963px);
+    font-size: calc(2.6vw  + 27.704px);
     font-weight: 700;
-    line-height: calc(2.1vw + 36.794px);
+    line-height: calc(3.1vw  + 33.531px);
     margin-bottom: 24px;
+
+    
 }
 .Project p{
-    width: calc(23vw + 214.4px);
+    width: calc(34.1vw  + 178.963px);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 60px;
 }
-.ProjectButton1{
-    width:219px;
-    height: 63px;
-    padding: 20px;
-    border: 0;
+.Project button{
+    width:227px;
+    height: 60px;
     border-radius: 8px;
     background: rgba(79, 156, 249, 1);
-    font-size: calc(-0.7 + 32.4);
-    margin-bottom: 100px;
-}
-.ProjectButton1 img {
-    margin-left: 10px;
-    transform-origin: center center;
-}
-.All{
-    display: flex;
-    flex-wrap: wrap;
-}
-.cube{
-    width: calc(33.6vw + 176.4px);
-    height: calc(22.4vw + 119.4px);
-
-    background: rgba(196, 222, 253, 1);
-    
-}
-
-
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: calc(11.8vw + 74.4px);
-}
-.LinkButton{
-    display: flex;
-    align-items: center;
-    gap: 55px; 
-}
-.menu-toggle {
-    display: none;
-}
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 42px; 
-}
-
-.nav-links  div {
-    display: flex;
-    align-items: center;
-}
-.nav-links img {
-    margin-left: 10px; 
-}
-
-.buttons {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
-
-.ProjectButton {
-    width: 219px;
-    height: 63px;
-    padding: 20px;
-    border: 0;
-    border-radius: 8px;
-    background: rgba(79, 156, 249, 1);
-    font-size: calc(-0.7 + 32.4px); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ProjectButton img {
-    margin-left: 10px;
-    transform-origin: center center;
-}
-
-.Login {
-    width:  calc(3.6vw + 122.564px);
-    padding: 16px 40px;
-    border: 0;
-    border-radius: 8px;
-    background: rgba(255, 228, 146, 1);
     font-size: 18px;
     font-weight: 500;
-    color: rgba(4, 56, 115, 1);
+    line-height: 23px;
 }
-@media (max-width:770px) {
+.cube{
+    width: 684px;
+    height: 456.39px;
+    background: rgba(196, 222, 253, 1);
+}
+
+
+
+
+
+
+
+@media (max-width:770px){
+    .LinkButton{
+        display: none;
+    }
+    .header-content{
+        display: flex;
+        gap: 0;
+        gap: calc(79.8vw  - 143.289px);
+        align-items: center;
+    }
+    .logo{
+        width: calc(12.5vw  + 95px);
+    }
+    .menu{
+        display: flex;
+    }
     .Project {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center; 
-        height: 100%;
-        position: relative;
-    }
-    .All{
-        display: block;
-    }
-    section::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: url('./image/Element2.svg') no-repeat center center;
-        background-size: calc(70vw + 250px);
-        transform-origin: center center;
-        z-index: -1;
-    }
-    .header-content {
-        gap: 0; /* Отступы между элементами при маленьком экране */
-    }
+        justify-content: center; /* Выравнивание элементов по вертикали (если нужно) */
+        text-align: center;
 
-    .LinkButton {
-        display: none; /* Скрыть навигацию и кнопки на маленьких экранах */
     }
-
-    .menu-toggle {
-        display: block; /* Показать изображение меню-гамбургера */
-    }
-
-    .menu-toggle img {
-        width: 42px; /* Размер меню-гамбургера */
-        height: auto; /* Автоматическая высота в зависимости от ширины */
-    }
-    
-
 }
