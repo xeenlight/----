@@ -110,9 +110,8 @@ flex-wrap: wrap;
     line-height: 23px;
 }
 .cube{
-
-    height: 456.39px;
-    background: rgba(196, 222, 253, 1);
+width: 100%;
+max-width: 679px;
 }
 
 
