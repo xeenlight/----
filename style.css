@@ -68,10 +68,12 @@
 
 
 
-.TWO{
-    padding: 100px calc(1.5vw  + 11.259px);
-    background: rgba(4, 56, 115, 1);
+.TWO {
+    padding: 100px calc(1.5vw + 11.259px);
+    background: rgba(4, 56, 115, 1) url('./image/Element1.svg') no-repeat center center;
+    background-size: cover;
 }
+
 .All{
 display: flex;
 flex-wrap: wrap;
@@ -120,6 +122,10 @@ flex-wrap: wrap;
 
 
 @media (max-width:770px){
+    .TWO {
+        background: rgba(4, 56, 115, 1) url('./image/Element2.svg') no-repeat center center;
+        background-size: cover;
+    }
     .LinkButton{
         display: none;
     }
