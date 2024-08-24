@@ -6,11 +6,22 @@
     color: rgba(255, 255, 255, 1);
     outline: 2px solid red;
 } 
-section {
+/* section {
     padding: calc(3.8vw  + 68px) calc(12.8vw  - 24.8px);
     background: rgba(4, 56, 115, 1); 
     position: relative;
     z-index: -1;
+} */
+
+.ONE {
+    padding: calc(0.8vw + 13.4px) calc(12.8vw  - 24.8px);
+    background: rgba(4, 56, 115, 1); 
+}
+.TWO {
+    padding: calc(3.8vw  + 68px) calc(12.8vw  - 24.8px);
+    background: rgba(4, 56, 115, 1); 
+    /* position: relative; */
+    z-index: -1; 
 }
 
 section::before {
@@ -40,7 +51,7 @@ section::before {
     line-height: 30px;
     margin-bottom: 60px;
 }
-.ProjectButton{
+.ProjectButton1{
     width:219px;
     height: 63px;
     padding: 20px;
@@ -49,20 +60,85 @@ section::before {
     background: rgba(79, 156, 249, 1);
     font-size: calc(-0.7 + 32.4);
     margin-bottom: 100px;
-    
+}
+.ProjectButton1 img {
+    margin-left: 10px;
+    transform-origin: center center;
 }
 .All{
     display: flex;
     flex-wrap: wrap;
 }
 .cube{
-    display: flex;
-    flex-wrap: wrap;
     width: calc(33.6vw + 176.4px);
     height: calc(22.4vw + 119.4px);
 
     background: rgba(196, 222, 253, 1);
     
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: calc(11.8vw + 74.4px);
+}
+.LinkButton{
+    display: flex;
+    align-items: center;
+    gap: 55px; 
+}
+.menu-toggle {
+    display: none;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 42px; 
+}
+
+.nav-links  div {
+    display: flex;
+    align-items: center;
+}
+.nav-links img {
+    margin-left: 10px; 
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.ProjectButton {
+    width: 219px;
+    height: 63px;
+    padding: 20px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: calc(-0.7 + 32.4px); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProjectButton img {
+    margin-left: 10px;
+    transform-origin: center center;
+}
+
+.Login {
+    width:  calc(3.6vw + 122.564px);
+    padding: 16px 40px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(255, 228, 146, 1);
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(4, 56, 115, 1);
 }
 @media (max-width:770px) {
     .Project {
@@ -70,11 +146,41 @@ section::before {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center; /* Centers the text inside .Project */
-        height: 100%; /* Ensure it takes the full height of the section */
+        text-align: center; 
+        height: 100%;
         position: relative;
     }
     .All{
         display: block;
     }
+    section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('./image/Element2.svg') no-repeat center center;
+        background-size: calc(70vw + 250px);
+        transform-origin: center center;
+        z-index: -1;
+    }
+    .header-content {
+        gap: 0; /* Отступы между элементами при маленьком экране */
+    }
+
+    .LinkButton {
+        display: none; /* Скрыть навигацию и кнопки на маленьких экранах */
+    }
+
+    .menu-toggle {
+        display: block; /* Показать изображение меню-гамбургера */
+    }
+
+    .menu-toggle img {
+        width: 42px; /* Размер меню-гамбургера */
+        height: auto; /* Автоматическая высота в зависимости от ширины */
+    }
+    
+
 }
