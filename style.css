@@ -74,4 +74,7 @@ section::before {
         height: 100%; /* Ensure it takes the full height of the section */
         position: relative;
     }
+    .All{
+        display: block;
+    }
 }
