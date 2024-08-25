@@ -127,10 +127,21 @@ max-width: 679px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: 
-    "item-1" "item-2"
-    "item-3" "item-4";
+    "item-1 item-2"
+    "item-3 item-4";
 }
-
+.item-1{
+    grid-area: item-1;
+}
+.item-2{
+    grid-area: item-2;
+}
+.item-3{
+    grid-area: item-3;
+}
+.item-4{
+    grid-area: item-4;
+}
 
 .Management {
     display: flex;
@@ -184,6 +195,8 @@ max-width: 679px;
 
 
 
+
+
 @media (max-width:770px){
     .TWO {
         background: rgba(4, 56, 115, 1) url('./image/Element2.svg') no-repeat center center;
@@ -217,37 +230,28 @@ max-width: 679px;
         margin-bottom: 100px;
     }
     .All{
-        display: block;
-        }
-        .Management {
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center align horizontally */
-            justify-content: center; /* Center align vertically */
-            height: 100%; /* Ensure the container takes full height of the grid cell */
-            text-align: center; /* Center align text */
+    display: block;
+    }
+    .Management {
+        display: flex;
+        flex-direction: column;
+         align-items: center; /* Center align horizontally */
+         justify-content: center; /* Center align vertically */
+         height: 100%; /* Ensure the container takes full height of the grid cell */
+         text-align: center; /* Center align text */
         }
         .ManagementIMG{
             margin-bottom: 100px;
         }
-        .grid-container {
-            display: flex;
-            flex-direction: column;
+        .TogetherIMG{
+            margin-bottom: 100px;
         }
-        .grid-item {
-            order: 0; 
-        }
-        .item-1 {
-            order: 1;
-        }
-        .item-2 {
-            order: 2; 
-        }
-        .item-4 {
-            order: 3;
-        }
-        .item-3 {
-            order: 4; 
-        }
+        .grid-container{
+            grid-template-columns: 1fr;
+            grid-template-areas:"item-1"
+                                "item-2"
+                                "item-4"
+                                "item-3";
     
+        }
 }
