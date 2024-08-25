@@ -112,6 +112,7 @@ flex-wrap: wrap;
 .cube{
 width: 100%;
 max-width: 679px;
+border-radius: 30px;
 }
 
 
@@ -129,6 +130,7 @@ max-width: 679px;
     grid-template-areas: 
     "item-1 item-2"
     "item-3 item-4";
+
 }
 .item-1{
     grid-area: item-1;
@@ -153,6 +155,7 @@ max-width: 679px;
 .ManagementIMG {
     width: 100%;
     max-width: 719px;
+    border-radius: 30px;
 }
 
 .Together {
@@ -196,6 +199,59 @@ max-width: 679px;
 
 
 
+.feature-section {
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+    background: rgba(4, 56, 115, 1);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-info h2 {
+    width: calc(34.1vw + 178.963px);
+    font-size: calc(2.6vw + 27.704px);
+    font-weight: 700;
+    line-height: calc(3.1vw + 33.531px);
+    margin-bottom: 24px;
+}
+
+.feature-info p {
+    width: calc(34.1vw + 178.963px);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.feature-info button {
+    width: 227px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.feature-image {
+    width: 100%;
+    max-width: 679px;
+    border-radius: 30px;
+}
+
+
+
+
+
 
 @media (max-width:770px){
     .TWO {
@@ -233,25 +289,25 @@ max-width: 679px;
     display: block;
     }
     .Management {
-        display: flex;
-        flex-direction: column;
-         align-items: center; /* Center align horizontally */
-         justify-content: center; /* Center align vertically */
-         height: 100%; /* Ensure the container takes full height of the grid cell */
-         text-align: center; /* Center align text */
-        }
-        .ManagementIMG{
-            margin-bottom: 100px;
-        }
-        .TogetherIMG{
-            margin-bottom: 100px;
-        }
-        .grid-container{
-            grid-template-columns: 1fr;
-            grid-template-areas:"item-1"
-                                "item-2"
-                                "item-4"
-                                "item-3";
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100%;
+    text-align: center; 
+    }
+    .ManagementIMG{
+    margin-bottom: 100px;
+    }
+    .TogetherIMG{
+    margin-bottom: 100px;
+    }
+    .grid-container{
+    grid-template-columns: 1fr;
+    grid-template-areas:"item-1"
+                        "item-2"
+                        "item-4"
+                        "item-3";
     
-        }
+    }
 }
