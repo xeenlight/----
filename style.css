@@ -318,6 +318,71 @@ border-radius: 30px;
 
 
 
+/* Центрирование содержимого секции и установка отступов */
+.user-review {
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+    position: relative;
+    text-align: center; /* Центрирование текста внутри .review-intro */
+}
+
+.review-intro {
+    margin-bottom: calc(2vw + 20px); /* Добавьте отступ между текстом и каруселью */
+}
+
+.user-review h2 {
+    color: black;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87.14px;
+    margin-bottom: 24px;
+}
+
+.user-review p {
+    max-width: 979px; /* Установка максимальной ширины для абзаца */
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/* Центрирование и стилизация карусели */
+.splide__track {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+
+}
+
+.splide__list {
+    display: flex; /* делает элементы внутри flex-контейнером */
+
+}
+
+.splide__slide {
+    flex: 0 0 auto; /* чтобы элементы не растягивались и не сжимались */
+}
+
+.review {
+    width: 424px;
+    height: 761px;
+    background: rgba(4, 56, 115, 1);
+    border-radius: 13px;
+    padding: 54.6px 20px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto; /* Центрирование слайдов внутри .splide__list */
+}
+
+
+
+
+
+
+
+
 @media (max-width:770px){
     .TWO {
         background: rgba(4, 56, 115, 1) url('./image/Element2.svg') no-repeat center center;
