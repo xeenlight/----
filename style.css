@@ -316,6 +316,7 @@ border-radius: 30px;
 
 
 
+/* Основные стили для секции с отзывами */
 .user-review {
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     position: relative;
@@ -323,7 +324,7 @@ border-radius: 30px;
 }
 
 .review-intro {
-    margin-bottom: calc(2vw + 20px); /* Добавьте отступ между текстом и каруселью */
+    margin-bottom: calc(2vw + 20px); /* Отступ между текстом и каруселью */
 }
 
 .user-review h2 {
@@ -335,7 +336,7 @@ border-radius: 30px;
 }
 
 .user-review p {
-    max-width: 979px; /* Установка максимальной ширины для абзаца */
+    max-width: 979px; /* Максимальная ширина для абзаца */
     color: rgba(33, 37, 41, 1);
     font-size: 18px;
     font-weight: 400;
@@ -349,60 +350,99 @@ border-radius: 30px;
     overflow: hidden;
     position: relative;
     z-index: 0;
-
 }
 
 .splide__list {
-    display: flex; /* делает элементы внутри flex-контейнером */
-
+    display: flex; /* Делаем элементы внутри flex-контейнером */
 }
 
 .splide__slide {
-    flex: 0 0 auto; /* чтобы элементы не растягивались и не сжимались */
+    flex: 0 0 auto; /* Чтобы элементы не растягивались и не сжимались */
 }
 
+/* Стили для конкретных слайдов (1 и 3) */
+.splide__slide:nth-child(1) .review,
+.splide__slide:nth-child(3) .review {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 228, 146, 1);
+}
+
+/* Стилизация текста в первом и третьем слайде */
+.splide__slide:nth-child(1) .review div span,
+.splide__slide:nth-child(3) .review div span {
+    color: rgba(33, 37, 41, 1); /* Цвет текста */
+}
+.splide__slide:nth-child(1) .review ul li,
+.splide__slide:nth-child(3) .review ul li{
+    color: rgba(33, 37, 41, 1); /* Цвет текста */
+}
+
+/* Стили для заголовков планов */
+.review div span:first-child {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Стили для цен */
+.review div span:nth-child(2) {
+    font-size: 36px;
+    font-weight: 700;
+    color:rgba(255, 228, 146, 1);
+}
+
+/* Стили для описаний */
+.review div span:nth-child(3) {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/* Стили для слайдов */
 .review {
-    width: 424px;
+    width: calc(12.5vw + 249px);
     height: 761px;
     background: rgba(4, 56, 115, 1);
     border-radius: 10px;
-    padding: 80px 44px;
+    padding: calc(5.6vw + 2.22px) calc(2.2vw + 12.889px);
     display: flex;
     flex-direction: column;
     margin: 0 auto; /* Центрирование слайдов внутри .splide__list */
     text-align: left;
 }
-.review  div {
+
+/* Стили для содержимого внутри .review */
+.review div {
     display: flex;
-    flex-direction: column; /* элементы будут располагаться вертикально */
-    gap: 25px; /* отступы между элементами */
-    font-size: 18px; /* размер шрифта */
-    line-height: 1.5; /* межстрочный интервал */
+    flex-direction: column; /* Элементы будут располагаться вертикально */
+    gap: 25px; /* Отступы между элементами */
+    font-size: 18px; /* Размер шрифта */
+    margin-bottom: 25px;
 }
 
-.review  div span {
-    display: block; /* чтобы элементы шли друг под другом */
-    
+.review div span {
+    display: block; /* Элементы будут идти друг под другом */
 }
 
+/* Стили для списков внутри .review */
 .review ul {
     padding: 0;
     margin: 0;
-    list-style: none; /* убираем маркеры списка */
-
+    list-style: none; /* Убираем маркеры списка */
 }
 
 .review li {
     display: flex;
-    align-items: center; /* выравнивание иконок и текста по центру */
-    margin-bottom: 27px; /* отступ между элементами списка */
-    
+    align-items: center; /* Выравнивание иконок и текста по центру */
+    margin-bottom: 27px; /* Отступ между элементами списка */
 }
 
+/* Стили для иконок внутри списков */
 .review img {
-    margin-right: 20px; /* отступ между иконкой и текстом */
-    vertical-align: middle; /* выравнивание иконки по центру текста */
+    margin-right: 20px; /* Отступ между иконкой и текстом */
+    vertical-align: middle; /* Выравнивание иконки по центру текста */
 }
+
+/* Стили для кнопок */
 .review button{
     width: 166px;
     height: 51px;
@@ -412,6 +452,26 @@ border-radius: 30px;
     background: rgba(79, 156, 249, 1);
 
 }
+.splide__slide:nth-child(1) .review button,
+.splide__slide:nth-child(3) .review button{
+    width: 166px;
+    height: 51px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(33, 37, 41, 1);
+    border: 1px solid rgba(255, 228, 146, 1);
+}
+
+
+
+
+
+
+
+
+
 
 
 
