@@ -316,9 +316,6 @@ border-radius: 30px;
 
 
 
-
-
-/* Центрирование содержимого секции и установка отступов */
 .user-review {
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     position: relative;
@@ -330,7 +327,7 @@ border-radius: 30px;
 }
 
 .user-review h2 {
-    color: black;
+    color: rgba(33, 37, 41, 1);
     font-size: 72px;
     font-weight: 700;
     line-height: 87.14px;
@@ -339,7 +336,7 @@ border-radius: 30px;
 
 .user-review p {
     max-width: 979px; /* Установка максимальной ширины для абзаца */
-    color: black;
+    color: rgba(33, 37, 41, 1);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -368,12 +365,52 @@ border-radius: 30px;
     width: 424px;
     height: 761px;
     background: rgba(4, 56, 115, 1);
-    border-radius: 13px;
-    padding: 54.6px 20px 36px;
+    border-radius: 10px;
+    padding: 80px 44px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 auto; /* Центрирование слайдов внутри .splide__list */
+    text-align: left;
+}
+.review  div {
+    display: flex;
+    flex-direction: column; /* элементы будут располагаться вертикально */
+    gap: 25px; /* отступы между элементами */
+    font-size: 18px; /* размер шрифта */
+    line-height: 1.5; /* межстрочный интервал */
+}
+
+.review  div span {
+    display: block; /* чтобы элементы шли друг под другом */
+    
+}
+
+.review ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* убираем маркеры списка */
+
+}
+
+.review li {
+    display: flex;
+    align-items: center; /* выравнивание иконок и текста по центру */
+    margin-bottom: 27px; /* отступ между элементами списка */
+    
+}
+
+.review img {
+    margin-right: 20px; /* отступ между иконкой и текстом */
+    vertical-align: middle; /* выравнивание иконки по центру текста */
+}
+.review button{
+    width: 166px;
+    height: 51px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(79, 156, 249, 1);
+
 }
 
 
