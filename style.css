@@ -479,6 +479,7 @@ border-radius: 30px;
 }
 
 .Access p {
+    width: calc(71.9vw +  58.074px);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 60px;
@@ -539,9 +540,77 @@ border-radius: 30px;
 
 
 
+
+.wrapperS {
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+    background: rgba(4, 56, 115, 1) url('./image/Element1.svg') no-repeat center center;
+    background-size: cover; /* Adjust as needed */
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.whitepaceimage{
+    width: 582px;
+    max-width: 100%; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+.text-content h2 {
+    width: calc(33.9vw + 179.556px);
+    font-size: calc(2.6vw + 27.704px);
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.text-content  p {
+    width: calc(33.9vw + 179.556px);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+
+}
+
+button {
+    width:227px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+button img {
+    vertical-align: middle;
+    margin-left: 8px; /* Space between text and image */
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width:900px){
     .TWO {
-        background: rgba(4, 56, 115, 1) url('./image/Element2.svg') no-repeat center center;
+        background: rgba(4, 56, 115, 1) url('./image/WorkWith.svg') no-repeat center center;
         background-size: cover;
     }
     .LinkButton{
@@ -625,5 +694,26 @@ border-radius: 30px;
         text-align: left;
         padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     }
+    .Access p {
+        width: calc(71.9vw +  58.074px);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+    .wrapperS {
+        background: rgba(4, 56, 115, 1) url('./image/Mobile.svg') no-repeat center center;
+        background-size: cover;
+    }
+    .wrapper {
+        display: block;
+    }
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        height: 100%;
+        text-align: center; 
+        }
 
 }
