@@ -136,7 +136,6 @@ border-radius: 30px;
 .grid-item {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .item-1{
     grid-area: item-1;
@@ -329,9 +328,9 @@ border-radius: 30px;
 
 .user-review h2 {
     color: rgba(33, 37, 41, 1);
-    font-size: 72px;
+    font-size: calc(2.6vw + 27.704px);
     font-weight: 700;
-    line-height: 87.14px;
+    line-height: calc(4vw + 30.66px);
     margin-bottom: 24px;
 }
 
@@ -397,7 +396,6 @@ border-radius: 30px;
 
 }
 
-/* Стили для слайдов */
 .review {
     width: calc(12.5vw + 249px);
     height: 761px;
@@ -406,43 +404,35 @@ border-radius: 30px;
     padding: calc(5.6vw + 2.22px) calc(2.2vw + 12.889px);
     display: flex;
     flex-direction: column;
-    margin: 0 auto; /* Центрирование слайдов внутри .splide__list */
+    margin: 0 auto; 
     text-align: left;
 }
-
-/* Стили для содержимого внутри .review */
 .review div {
     display: flex;
-    flex-direction: column; /* Элементы будут располагаться вертикально */
-    gap: 25px; /* Отступы между элементами */
-    font-size: 18px; /* Размер шрифта */
+    flex-direction: column; 
+    gap: 25px; 
+    font-size: 18px; 
     margin-bottom: 25px;
 }
 
 .review div span {
-    display: block; /* Элементы будут идти друг под другом */
+    display: block;
 }
-
-/* Стили для списков внутри .review */
 .review ul {
     padding: 0;
     margin: 0;
-    list-style: none; /* Убираем маркеры списка */
+    list-style: none; 
 }
-
 .review li {
     display: flex;
-    align-items: center; /* Выравнивание иконок и текста по центру */
-    margin-bottom: 27px; /* Отступ между элементами списка */
+    align-items: center;
+    margin-bottom: 27px; 
 }
 
-/* Стили для иконок внутри списков */
 .review img {
-    margin-right: 20px; /* Отступ между иконкой и текстом */
-    vertical-align: middle; /* Выравнивание иконки по центру текста */
+    margin-right: 20px; 
+    vertical-align: middle; 
 }
-
-/* Стили для кнопок */
 .review button{
     width: 166px;
     height: 51px;
@@ -450,7 +440,6 @@ border-radius: 30px;
     font-size: 16px;
     font-weight: 500;
     background: rgba(79, 156, 249, 1);
-
 }
 .splide__slide:nth-child(1) .review button,
 .splide__slide:nth-child(3) .review button{
@@ -473,6 +462,43 @@ border-radius: 30px;
 
 
 
+.hero-section {
+    background: rgba(4, 56, 115, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align text inside the section */
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+}
+
+
+.Access h2 {
+    font-size: calc(2.6vw + 27.704px);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.Access p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.Access button {
+    display: inline-flex; /* Ensure the button takes up only as much space as it needs */
+    justify-content: center; /* Center the content inside the button */
+    align-items: center; /* Center the content vertically inside the button */
+    width: 227px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fff; /* Set the text color */
+    border: none; /* Remove any default border */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
 
 
 
@@ -480,7 +506,40 @@ border-radius: 30px;
 
 
 
-@media (max-width:770px){
+
+.sponsors{
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+}
+
+.sponsors-title h2{
+    font-size: calc(2.6vw + 27.704px);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgba(33, 37, 41, 1);
+}
+
+.sponsors-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: calc(6.2vw + 80.148px);
+}
+
+.sponsor-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:900px){
     .TWO {
         background: rgba(4, 56, 115, 1) url('./image/Element2.svg') no-repeat center center;
         background-size: cover;
@@ -537,6 +596,11 @@ border-radius: 30px;
                         "item-3";
     
     }
+    .grid-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -552,6 +616,14 @@ border-radius: 30px;
         justify-content: center;
         height: 100%;
         text-align: center; 
+    }
+    .hero-section {
+        background: rgba(4, 56, 115, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     }
 
 }
