@@ -639,6 +639,7 @@ button img {
     width: calc(12.5vw + 249px);
     padding: 60px 24px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .review-text {
@@ -673,11 +674,12 @@ button img {
 .review-details {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: calc(1.7vw + 18.667px);
 }
 
 .review-details img {
     width: 95px;
-    margin-right: 42px; /* Space between image and text */
 }
 
 .review-info {
@@ -690,7 +692,7 @@ button img {
     font-size: 24px;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 8px; /* Space between span and p */
+    margin-bottom: 15px; /* Space between span and p */
 }
 
 .review-info p {
