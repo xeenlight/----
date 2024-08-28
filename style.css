@@ -315,7 +315,6 @@ border-radius: 30px;
 
 
 
-/* Основные стили для секции с отзывами */
 .user-review {
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     position: relative;
@@ -452,7 +451,6 @@ border-radius: 30px;
     color: rgba(33, 37, 41, 1);
     border: 1px solid rgba(255, 228, 146, 1);
 }
-
 
 
 
@@ -636,12 +634,7 @@ button img {
     width: 100%;
 }
 
-.splide__track {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-/* General styles for all slides */
+
 .review2 {
     width: calc(12.5vw + 249px);
     padding: 60px 24px;
