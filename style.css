@@ -524,7 +524,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: calc(6.2vw + 80.148px);
+    gap: calc(6.1vw + 80.148px);
 }
 
 .sponsor-logo {
@@ -600,6 +600,141 @@ button img {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ReviewUser{
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+    position: relative;
+    text-align: center;
+}
+.ReviewUser h2{
+    font-size: calc(2.6vw + 27.704px);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgba(33, 37, 41, 1);
+    
+}
+.splide2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.splide__track {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* General styles for all slides */
+.review2 {
+    width: calc(12.5vw + 249px);
+    padding: 60px 24px;
+    border-radius: 10px;
+}
+
+.review-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+
+.review-text img {
+    width: 100%;
+    max-width: 86px;
+    margin-bottom: 16px; /* Space between image and text */
+}
+
+.review-text p {
+    width: calc(11.9vw + 210.074px);
+    font-size: calc(0.2vw + 15.407px);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+}
+.borderBlack{
+    border-top: 2px solid rgba(33, 37, 41, 1);
+    margin-bottom: 60px;
+}
+.borderWhite{
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    margin-bottom: 60px;
+}
+.review-details {
+    display: flex;
+    align-items: center;
+}
+
+.review-details img {
+    width: 95px;
+    margin-right: 42px; /* Space between image and text */
+}
+
+.review-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-info span {
+    width: 246px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 8px; /* Space between span and p */
+}
+
+.review-info p {
+    width: 246px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+/* Styles for the first slide */
+.splide__slide:nth-child(1) .review2 {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.splide__slide:nth-child(1) .review-text p {
+    color: rgba(33, 37, 41, 1);
+}
+
+
+.splide__slide:nth-child(1) .review-info span {
+    color: rgba(33, 37, 41, 1);
+}
+.Acquisition{
+    color: rgba(33, 37, 41, 1);
+}
+.splide__slide:nth-child(2) .review2,
+.splide__slide:nth-child(3) .review2 {
+    background: rgba(79, 156, 249, 1);
+}
+.splide__slide:nth-child(2) .review-info span,
+.splide__slide:nth-child(3) .review-info span {
+    color: rgba(4, 56, 115, 1);
+}
 
 
 
