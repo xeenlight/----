@@ -494,7 +494,7 @@ border-radius: 30px;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
-    color: #fff; /* Set the text color */
+    color: #fff; 
     border: none; /* Remove any default border */
     cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
 }
@@ -738,6 +738,69 @@ button img {
 
 
 
+.today {
+    background: rgba(4, 56, 115, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+}
+
+.WhitepaceToday {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование всех элементов внутри WhitepaceToday */
+    justify-content: center; /* Центрирование по вертикали */
+}
+
+.WhitepaceToday h2 {
+    width: calc(29.6vw + 193.185px);
+    font-size: calc(2.6vw + 27.704px);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.WhitepaceToday p {
+    width: calc(29.6vw + 193.185px);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.WhitepaceToday button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.SponsorIMG {
+    display: flex;
+    gap: 45px;
+    justify-content: center; /* Центрирование изображений по горизонтали */
+
+}
+.SponsorIMG img {
+    width: calc(1.9vw + 21.778px);
+}
+
+
+
+
+
+
+
 @media (max-width:900px){
     .TWO {
         background: rgba(4, 56, 115, 1) url('./image/WorkWith.svg') no-repeat center center;
@@ -845,5 +908,17 @@ button img {
         height: 100%;
         text-align: center; 
         }
-
+        .today {
+            background: rgba(4, 56, 115, 1);
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
+        }
+        .WhitepaceToday {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
 }
