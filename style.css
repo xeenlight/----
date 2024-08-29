@@ -274,6 +274,7 @@ border-radius: 30px;
     gap: 60px;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .Customise-info h2 {
     width: calc(24.4vw + 209.778px);
@@ -397,7 +398,6 @@ border-radius: 30px;
 
 .review {
     width: calc(12.5vw + 249px);
-    height: 761px;
     background: rgba(4, 56, 115, 1);
     border-radius: 10px;
     padding: calc(5.6vw + 2.22px) calc(2.2vw + 12.889px);
