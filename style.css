@@ -354,11 +354,11 @@ border-radius: 30px;
 .user-review {
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     position: relative;
-    text-align: center; /* Центрирование текста внутри .review-intro */
+    text-align: center; 
 }
 
 .review-intro {
-    margin-bottom: calc(2vw + 20px); /* Отступ между текстом и каруселью */
+    margin-bottom: calc(2vw + 20px); 
 }
 
 .user-review h2 {
@@ -370,7 +370,7 @@ border-radius: 30px;
 }
 
 .user-review p {
-    max-width: 979px; /* Максимальная ширина для абзаца */
+    max-width: 979px; 
     color: rgba(33, 37, 41, 1);
     font-size: 18px;
     font-weight: 400;
@@ -379,7 +379,7 @@ border-radius: 30px;
     margin-bottom: 60px;
 }
 
-/* Центрирование и стилизация карусели */
+
 .splide__track {
     overflow: hidden;
     position: relative;
@@ -387,44 +387,39 @@ border-radius: 30px;
 }
 
 .splide__list {
-    display: flex; /* Делаем элементы внутри flex-контейнером */
+    display: flex; 
 }
 
 .splide__slide {
-    flex: 0 0 auto; /* Чтобы элементы не растягивались и не сжимались */
+    flex: 0 0 auto; 
 }
 
-/* Стили для конкретных слайдов (1 и 3) */
 .splide__slide:nth-child(1) .review,
 .splide__slide:nth-child(3) .review {
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 228, 146, 1);
 }
 
-/* Стилизация текста в первом и третьем слайде */
 .splide__slide:nth-child(1) .review div span,
 .splide__slide:nth-child(3) .review div span {
-    color: rgba(33, 37, 41, 1); /* Цвет текста */
+    color: rgba(33, 37, 41, 1); 
 }
 .splide__slide:nth-child(1) .review ul li,
 .splide__slide:nth-child(3) .review ul li{
-    color: rgba(33, 37, 41, 1); /* Цвет текста */
+    color: rgba(33, 37, 41, 1); 
 }
 
-/* Стили для заголовков планов */
 .review div span:first-child {
     font-size: 24px;
     font-weight: 600;
 }
 
-/* Стили для цен */
 .review div span:nth-child(2) {
     font-size: 36px;
     font-weight: 700;
     color:rgba(255, 228, 146, 1);
 }
 
-/* Стили для описаний */
 .review div span:nth-child(3) {
     font-size: 18px;
     font-weight: 500;
@@ -507,7 +502,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Center-align text inside the section */
+    text-align: center; 
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
 }
 
@@ -526,9 +521,9 @@ border-radius: 30px;
 }
 
 .Access button {
-    display: inline-flex; /* Ensure the button takes up only as much space as it needs */
-    justify-content: center; /* Center the content inside the button */
-    align-items: center; /* Center the content vertically inside the button */
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
     width: 227px;
     height: 60px;
     border-radius: 8px;
@@ -537,8 +532,8 @@ border-radius: 30px;
     font-weight: 500;
     line-height: 23px;
     color: #fff; 
-    border: none; /* Remove any default border */
-    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    border: none;
+    cursor: pointer; 
 }
 
 
@@ -584,7 +579,7 @@ border-radius: 30px;
 .wrapperS {
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     background: rgba(4, 56, 115, 1) url('./image/Element1.svg') no-repeat center center;
-    background-size: cover; /* Adjust as needed */
+    background-size: cover; 
 }
 
 .wrapper {
@@ -597,7 +592,7 @@ border-radius: 30px;
 
 .whitepaceimage{
     width: 582px;
-    max-width: 100%; /* Adjust the width as needed */
+    max-width: 100%; 
     height: auto;
     margin-bottom: 100px;
 }
@@ -644,7 +639,7 @@ button {
 
 button img {
     vertical-align: middle;
-    margin-left: 8px; /* Space between text and image */
+    margin-left: 8px; 
 }
 
 
@@ -702,7 +697,7 @@ button img {
 .review-text img {
     width: 100%;
     max-width: 86px;
-    margin-bottom: 16px; /* Space between image and text */
+    margin-bottom: 16px;
 }
 
 .review-text p {
@@ -742,7 +737,7 @@ button img {
     font-size: 24px;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 15px; /* Space between span and p */
+    margin-bottom: 15px; 
 }
 
 .review-info p {
@@ -754,7 +749,6 @@ button img {
     
 }
 
-/* Styles for the first slide */
 .splide__slide:nth-child(1) .review2 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
@@ -808,8 +802,8 @@ button img {
 .WhitepaceToday {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Центрирование всех элементов внутри WhitepaceToday */
-    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; 
+    justify-content: center; 
 }
 
 .WhitepaceToday h2 {
