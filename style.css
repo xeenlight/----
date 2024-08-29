@@ -36,7 +36,7 @@
     align-items: center;
 }
 .buttons{
-    display: flex;
+    display: flex;   
     gap: 24px;
 }
 .Login{
@@ -51,13 +51,19 @@
     color: rgba(4, 56, 115, 1);
 }
 .ProjectButton{
-    width:227px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
     height: 60px;
     border-radius: 8px;
     background: rgba(79, 156, 249, 1);
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -103,13 +109,19 @@
     margin-bottom: 60px;
 }
 .Project button{
-    width:227px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
     height: 60px;
     border-radius: 8px;
     background: rgba(79, 156, 249, 1);
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 .cube{
 width: 100%;
@@ -187,16 +199,19 @@ border-radius: 30px;
 }
 
 .grid-container button {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
     justify-content: center;
-    width: 201px;
-    height: 63px;
+    align-items: center;
+    width: 227px;
+    height: 60px;
     border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
-    background: rgba(79, 156, 249, 1);
+    color: #fff;
+    border: none;
+    cursor: pointer;
     margin-bottom: 60px;
 }
 
@@ -239,6 +254,9 @@ border-radius: 30px;
 }
 
 .feature-info button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 227px;
     height: 60px;
     border-radius: 8px;
@@ -246,6 +264,9 @@ border-radius: 30px;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
     margin-bottom: 60px;
 }
 
@@ -295,6 +316,9 @@ border-radius: 30px;
 }
 
 .Customise-info button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 227px;
     height: 60px;
     border-radius: 8px;
@@ -302,6 +326,9 @@ border-radius: 30px;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
     margin-bottom: 60px;
 }
 
@@ -433,12 +460,19 @@ border-radius: 30px;
     vertical-align: middle; 
 }
 .review button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 166px;
     height: 51px;
     border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
     font-size: 16px;
     font-weight: 500;
-    background: rgba(79, 156, 249, 1);
+    line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 .splide__slide:nth-child(1) .review button,
 .splide__slide:nth-child(3) .review button{
@@ -583,13 +617,19 @@ border-radius: 30px;
 }
 
 button {
-    width:227px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
     height: 60px;
     border-radius: 8px;
     background: rgba(79, 156, 249, 1);
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 button img {
@@ -880,6 +920,9 @@ button img {
     margin-bottom: 23px; 
 }
 .ProductList button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 186px;
     height: 60px;
     border-radius: 8px;
@@ -887,6 +930,9 @@ button img {
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
     margin-bottom: 67px;
 }
 
@@ -972,7 +1018,19 @@ button img {
 
     }
     .Project button{
-
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 227px;
+        height: 60px;
+        border-radius: 8px;
+        background: rgba(79, 156, 249, 1);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
         margin-bottom: 100px;
     }
     .All{
