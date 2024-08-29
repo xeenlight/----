@@ -84,7 +84,9 @@
 .All{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 .Project {
     display: flex;
@@ -148,6 +150,9 @@ border-radius: 30px;
 .grid-item {
     display: flex;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 .item-1{
     grid-area: item-1;
@@ -227,9 +232,10 @@ border-radius: 30px;
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 60px;
 }
 
 .feature-info {
@@ -293,9 +299,11 @@ border-radius: 30px;
 .Customise {
     display: flex;
     gap: 60px;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
 }
 .Customise-info h2 {
     width: calc(24.4vw + 209.778px);
@@ -582,7 +590,9 @@ border-radius: 30px;
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 .whitepaceimage{
@@ -836,7 +846,7 @@ button img {
 .SponsorIMG {
     display: flex;
     gap: 45px;
-    justify-content: center; /* Центрирование изображений по горизонтали */
+    justify-content: center; 
 
 }
 .SponsorIMG img {
@@ -854,14 +864,14 @@ button img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px; /* Отступ между элементами */
+    gap: 100px; 
     background: rgba(4, 56, 115, 1);
 }
 
 .ProductList {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Прилипает элементы к левому краю */
+    align-items: flex-start; 
     
 }
 .LogoEnd{
@@ -882,30 +892,27 @@ button img {
     line-height: 20px;
     letter-spacing: -0.02em;
     width: 128px;
-    margin-bottom: 15px; /* Дополнительный отступ между элементами, если требуется */
+    margin-bottom: 15px; 
 }
-/* Стили для <span> внутри первого блока .ProductList */
+
 .ProductList:nth-of-type(2) span:first-of-type {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.78px;
 }
 
-/* Стили для <span> внутри второго блока .ProductList */
 .ProductList:nth-of-type(3) span:first-of-type {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.78px;
 }
 
-/* Стили для <span> внутри третьего блока .ProductList */
 .ProductList:nth-of-type(4) span:first-of-type {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.78px;
 }
 
-/* Стили для <h3> внутри последнего блока .ProductList */
 .ProductList:last-child h3 {
     font-size: 28px;
     font-weight: 700;
@@ -948,7 +955,7 @@ button img {
 }
 
 .LinkConteiner{
-    padding: 16px calc(1.5vw  + 11.259px);
+    padding: calc(1.1vw  + 17.444px) calc(1.5vw  + 11.259px);
     background: rgba(4, 56, 115, 1);
 }
 .last-content {
@@ -1150,7 +1157,7 @@ button img {
         .last-content {
             flex-direction: column;
             align-items: center;
-            gap: 40px; 
+            gap: 20px; 
         }
     
         .linkS {
