@@ -738,6 +738,14 @@ button img {
 
 
 
+
+
+
+
+
+
+
+
 .today {
     background: rgba(4, 56, 115, 1);
     display: flex;
@@ -793,7 +801,108 @@ button img {
 }
 .SponsorIMG img {
     width: calc(1.9vw + 21.778px);
+    margin-bottom: 32px;
 }
+
+
+
+
+
+
+.Product {
+    padding: 0px calc(1.5vw + 11.259px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px; /* Отступ между элементами */
+    background: rgba(4, 56, 115, 1);
+}
+
+.ProductList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Прилипает элементы к левому краю */
+    
+}
+.LogoEnd{
+    margin-bottom: 15px;
+}
+.ProductList p{
+    width: 240px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+.ProductList span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+    width: 128px;
+    margin-bottom: 15px; /* Дополнительный отступ между элементами, если требуется */
+}
+.ProductList h3 {
+    margin-bottom: 23px; /* Дополнительный отступ между элементами, если требуется */
+}
+.ProductList:last-child p {
+    margin-bottom: 23px; 
+}
+.ProductList button{
+    width: 186px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 67px;
+}
+.BorderLast{
+    width: 100%;
+    border: 1px solid rgba(46, 78, 115, 1)
+}
+
+
+
+
+.last-content {
+    display: flex;
+    gap: 494px; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linkS {
+    display: flex;
+    gap: 60px; 
+    flex-wrap: wrap;
+}
+.linkS img{
+    margin-right: 10px;
+}
+/* Стили для LogoS */
+.LogoS {
+    display: flex;
+    gap: 32px; /* Отступ между элементами в 32px */
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+}
+
+/* Выравнивание элементов внутри linkS по центру по вертикали */
+.linkS  div {
+    display: flex;
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+}
+
+
+
+
+
 
 
 
