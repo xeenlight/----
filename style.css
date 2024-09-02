@@ -171,6 +171,8 @@ border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    position: relative; 
+
     height: 100%;
 }
 
@@ -185,6 +187,7 @@ border-radius: 30px;
     max-width: 583px;
 }
 
+
 .Management h2 {
     width: calc(30.5vw + 190.519px);
     font-size: calc(3.3vw + 25.333px);
@@ -192,7 +195,34 @@ border-radius: 30px;
     line-height: calc(4vw + 30.66px);
     margin-bottom: 24px;
     color: rgba(33, 37, 41, 1);
+    position: relative; 
+    z-index: 0; 
 }
+
+.Management .Mazok7 {
+    position: absolute;
+    bottom: 0; 
+    left: calc(9.6vw + 77.185px);
+    width: 100%;
+    max-width: calc(13vw + 148.519px);
+    z-index: -1; 
+}
+.Mazok1 {
+    position: absolute; 
+    top: calc(7.9vw + 44.815px); 
+    left: 0; 
+    width: 100%; 
+    max-width: 484.21px;
+    z-index: -1; 
+}
+.Mazok2 {
+    position: absolute; 
+    top: calc(3.2vw + 9.63px); 
+    left: calc(6vw + 99px);
+    width: calc(8.9vw + 141.556px); 
+    z-index: -1; 
+}
+
 
 .Management p {
     width: calc(30.5vw + 190.519px);
@@ -224,12 +254,12 @@ border-radius: 30px;
 
 
 
+
 .feature-section {
     padding: calc(5.6vw + 62.222px) calc(1.5vw + 11.259px);
     background: rgba(4, 56, 115, 1);
     background-size: cover;
 }
-
 .container {
     display: flex;
     justify-content: center;
@@ -239,6 +269,7 @@ border-radius: 30px;
 }
 
 .feature-info {
+    position: relative;
     flex-direction: column;
     justify-content: center;
 }
@@ -249,6 +280,17 @@ border-radius: 30px;
     font-weight: 700;
     line-height: calc(3.1vw + 33.531px);
     margin-bottom: 24px;
+    position: relative; 
+    z-index: 1;
+}
+
+.feature-info .Mazok3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    max-width: 370.57px;
+    z-index: -1;
 }
 
 .feature-info p {
@@ -279,8 +321,9 @@ border-radius: 30px;
 .feature-image {
     width: 100%;
     max-width: 679px;
-    border-radius: 30px; 
+    border-radius: 30px;
 }
+
 
 
 
@@ -306,12 +349,22 @@ border-radius: 30px;
 
 }
 .Customise-info h2 {
+    position: relative;
     width: calc(24.4vw + 209.778px);
     font-size: calc(2.6vw + 27.704px);
     font-weight: 700;
     line-height: calc(3.1vw + 33.531px);
     margin-bottom: 24px;
     color: rgba(33, 37, 41, 1);
+    z-index: 0;
+}
+.Customise-info .Mazok4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    max-width: 370.57px;
+    z-index: -1;
 }
 
 .Customise-info p {
@@ -367,8 +420,17 @@ border-radius: 30px;
     font-weight: 700;
     line-height: calc(4vw + 30.66px);
     margin-bottom: 24px;
+    position: relative;
+    z-index: 0;
 }
-
+.user-review .Mazok5 {
+    position: absolute;
+    bottom: 0px;
+    left: calc(59.8vw - 181.407px);
+    width: 100%;
+    max-width: 276.41px;
+    z-index: -1;
+}
 .user-review p {
     max-width: 979px; 
     color: rgba(33, 37, 41, 1);
@@ -511,8 +573,17 @@ border-radius: 30px;
     font-size: calc(2.6vw + 27.704px);
     font-weight: 700;
     margin-bottom: 24px;
+    position: relative;
+    z-index: 0;
 }
-
+.Access .Mazok6 {
+    position: absolute;
+    bottom: 0px;
+    left: calc(70.6vw - 245.074px);
+    width: 100%;
+    max-width: 276.41px;
+    z-index: -1;
+}
 .Access p {
     width: calc(71.9vw +  58.074px);
     font-size: 18px;
@@ -553,8 +624,18 @@ border-radius: 30px;
     text-align: center;
     margin-bottom: 100px;
     color: rgba(33, 37, 41, 1);
+    position: relative; 
+    z-index: 0; 
 }
 
+.sponsors-title .Mazok8 {
+    position: absolute;
+    bottom: 0; 
+    left: calc(45vw - 47px);
+    width: 100%;
+    max-width: calc(10vw + 158px);
+    z-index: -1; 
+}
 .sponsors-images {
     display: flex;
     justify-content: center;
