@@ -11,7 +11,7 @@
 }
 .header-content{
     display: flex;
-    gap: 217px;
+
     align-items: center;
     justify-content: space-between;
 }
@@ -86,7 +86,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 60px;
 }
 .Project {
     display: flex;
@@ -95,7 +94,7 @@
 
 }
 .Project h1{
-    width: calc(34.1vw  + 178.963px);
+    width: calc(31.1vw  + 178.963px);
     font-size: calc(2.6vw  + 27.704px);
     font-weight: 700;
     line-height: calc(3.1vw  + 33.531px);
@@ -104,7 +103,7 @@
     
 }
 .Project p{
-    width: calc(34.1vw  + 178.963px);
+    width: calc(31.1vw  + 178.963px);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -124,11 +123,12 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-bottom: 60px;
 }
 .cube{
-width: 100%;
-max-width: 679px;
-border-radius: 30px;
+    width: 100%;
+    max-width: 679px;
+    border-radius: 30px;
 }
 
 
@@ -583,7 +583,7 @@ border-radius: 30px;
     bottom: 0px;
     left: calc(70.6vw - 245.074px);
     width: 100%;
-    max-width: 276.41px;
+    max-width: calc(10vw + 158px);
     z-index: -1;
 }
 .Access p {
@@ -677,7 +677,7 @@ border-radius: 30px;
     width: 582px;
     max-width: 100%; 
     height: auto;
-    margin-bottom: 100px;
+
 }
 
 .text-content {
@@ -1037,7 +1037,6 @@ button img {
 }
 .last-content {
     display: flex;
-    gap: 494px; 
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1070,7 +1069,14 @@ button img {
 
 
 
-
+/* @media (max-width: 1152px) {
+    .menu {
+        display: flex;
+    }
+    .nav-links {
+        display: none
+    }
+} */
 
 
 @media (max-width:900px){
@@ -1117,9 +1123,7 @@ button img {
         cursor: pointer;
         margin-bottom: 100px;
     }
-    .All{
-    display: block;
-    }
+
     .Management {
     display: flex;
     flex-direction: column;
@@ -1180,9 +1184,6 @@ button img {
     .wrapperS {
         background: rgba(4, 56, 115, 1) url('./image/Mobile.svg') no-repeat center center;
         background-size: cover;
-    }
-    .wrapper {
-        display: block;
     }
 
 
