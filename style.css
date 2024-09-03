@@ -940,7 +940,7 @@ button img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px; 
+    gap: calc(1.9vw + 74.074px);
     background: rgba(4, 56, 115, 1);
 }
 
