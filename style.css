@@ -124,10 +124,11 @@
     .buttons {
         margin-top: 20px; 
     }
+    .dropdown-menu .ProjectButton {
+        display: none;
+    }
 }
-.dropdown-menu .ProjectButton {
-    display: none;
-}
+
 .menu-open .menu-toggle .bar:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 5px);
 }
